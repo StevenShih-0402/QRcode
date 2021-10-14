@@ -1,8 +1,20 @@
+@font-face {
+    font-family: "Klee One SemiBold";
+    src: url(KleeOne-SemiBold.woff) format('woff');
+}
+
+html{
+    background:black;
+    font-family: "Klee One SemiBold";
+}
+
 body{
     margin: 0 auto;
     padding: 0;
     width: 90vw;
     text-align: center;
+    color:white;
+    font-weight: 600;
 }
 
 header h1{
@@ -24,10 +36,21 @@ header p{
     display: block;
     padding: 1em;
     margin: 1em;
-    border: 1px solid red;
+    border: 1px solid #00cec9;
+    border-radius: 10px;
     width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    transition: 0.2s;
+}
+.buttons a:hover{
+    background: #00cec9;
+    color: black;
+}
+.buttons a:active{
+    background: #fd79a8;
+    border: 1px solid #fd79a8;
     color: black;
 }
