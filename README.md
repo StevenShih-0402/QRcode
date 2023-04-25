@@ -4,3 +4,4 @@
 
 [網站連結](https://stevenshih-0402.github.io/QRcode/index.html)
 
+>※ 2023/4/25：學校建築物連結已失效，目前僅供觀賞用。o(￣┰￣*)ゞ
